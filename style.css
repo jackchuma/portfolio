@@ -163,8 +163,19 @@ nav a {
     background-color: white;
 }
 
+.projects-title-container {
+    display: flex;
+    align-items: center;
+}
+
+.projects-title-container hr {
+    flex: 1;
+    height: 0;
+}
+
 .projects h2 {
     font-size: 65px;
+    padding: 10px;
 }
 
 /*=============== Other Projects Section ===============*/
@@ -175,8 +186,19 @@ nav a {
     padding-top: 75px;
 }
 
+.other-projects-title-container {
+    display: flex;
+    align-items: center;
+}
+
+.other-projects hr {
+    flex: 1;
+    height: 0;
+}
+
 .other-projects h2 {
     font-size: 65px;
+    padding: 10px;
 }
 
 /*=============== Contact Section ===============*/
@@ -188,8 +210,19 @@ nav a {
     padding-top: 75px;
 }
 
+.contact-title-container {
+    display: flex;
+    align-items: center;
+}
+
+.contact hr {
+    flex: 1;
+    height: 0;
+}
+
 .contact h2 {
     font-size: 65px;
+    padding: 10px;
 }
 
 .logo-container {
