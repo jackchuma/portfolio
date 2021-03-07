@@ -18,7 +18,7 @@ body {
 header {
     height: 50px;
     background-color: rgb(57, 58, 59);
-    color: lightgray;
+    color: white;
     position: fixed;
     top: 0px;
     width: 100%;
@@ -58,7 +58,7 @@ nav ul {
 }
 
 nav a {
-    color: lightgray;
+    color: white;
     text-decoration: none;
 }
 

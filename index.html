@@ -6,25 +6,26 @@
         <link href="style.css" type="text/css" rel="stylesheet">
     </head>
     <body>
+        <a name="top"></a>
         <header>
             <nav>
                 <div class="img-container">
-                    <p><strong>Jack Chuma</strong></p>
+                    <p><a href="#top" id="top-logo"><strong>Jack Chuma</strong></a></p>
                 </div>
                 <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li id="about-link"><a href="#about">About</a></li>
+                    <li id="projects-link"><a href="#projects">Projects</a></li>
+                    <li id="contact-link"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
-        <section class="intro">
+        <section class="intro" id="intro">
             <div class="intro-background">
             </div>
             <div class="intro-content">
                 <h1>Jack Chuma</h1>
                 <p>I'm an apiring full stack software engineer based out of Westborough, MA.</p>
-                <a href="#contact">Get In Touch</a>
+                <a href="#contact" id="get-in-touch">Get In Touch</a>
             </div>
         </section>
         <section class="about" id="about">
@@ -71,13 +72,14 @@
             </div>
             <p>I'd love to hear from you!</p>
             <div class="logo-container">
-                <a href="https://www.linkedin.com/in/jack-chuma-a42327a9/" target="_blank"><img src="img/linked-in-logo.png"></a>
-                <a href="https://github.com/jackchuma" target="_blank"><img src="img/github-logo.png"></a>
-                <a href="mailto: jackchuma21@gmail.com"><img src="img/email-logo.png"></a>
+                <a href="https://www.linkedin.com/in/jack-chuma-a42327a9/" target="_blank"><img src="img/linked-in-logo.png" id="linked-in-logo"></a>
+                <a href="https://github.com/jackchuma" target="_blank"><img src="img/github-logo.png" id="github-logo"></a>
+                <a href="mailto: jackchuma21@gmail.com"><img src="img/email-logo.png" id = "email-logo"></a>
             </div>
         </section>
         <footer>
             <p>Designed and Built by Jack Chuma</p>
         </footer>
     </body>
+    <script src="script.js"></script>
 </html>
